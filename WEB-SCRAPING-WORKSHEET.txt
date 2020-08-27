@@ -1,0 +1,64 @@
+WEB SCRAPING
+WORKSHEET – 1
+
+In Q1 to Q9, only one option is correct, Choose the correct option:
+1. Which of the following extracts information from user generated content?
+B) Web scraping
+
+
+2. Which of the following is not a web scraping library in python?
+C) Requests
+
+			
+3. Selenium tests __________?
+A) Browser based applications
+			
+
+
+4. Task of crawling is performed by a complex software which is known as:
+D) Spider
+
+
+5. Which of the following commands is used to access name of a tag in Beautiful Soup?
+C) tag[‘id’]
+
+
+6. Which of the following is the default parser in Beautiful Soup?
+C) lxml
+
+
+7. In selenium the webdriver is used to?
+C) execute tests on HtmlUnit browser
+
+
+8. In selenium, driver.find_elements_by_xpath(‘given xpath’) returns:
+B) the url of first webelement associated with the ‘given xpath’
+
+
+9. The script ‘window.scrollBy(0,a) scrolls the webpage by?
+D) ‘a’ number of pixels vertically
+
+In Q10, more than one options are correct, Choose all the correct options:
+10. Which of the following is(are) tags of HTML?
+A) <a>					B) <b>
+
+
+Q10 to Q13 are subjective answer type questions, Answer them briefly.
+11. What is the main difference between a web scraper and a web crawler?
+
+       Though sometimes the two terms are used interchangeably the main difference is that web crawlers usually focus on indexing the web while web scrapers extract or "scrape" data from webpages.
+There is a fair bit of overlap between the web crawlers and web scrapers. Web crawlers work by browsing to a series of webpages and analyzing their contents for links to other webpages. The links to the other webpages are then followed and searched for more links. The process of following and recording these links is referred to as “crawling.” While crawling through various web pages can reveal useful information about the structure of the web, extracting data from those sites, or “web scraping”, captures the content of those pages which can then be analyzed to reveal more information about the crawled pages. Many web crawlers utilize web scraping to contextualize the pages that they have crawled.
+A web scraper's main purpose is to extract data from webpages. Web scrapers often have the ability to browse to different pages and follow links. Though web scrapers can crawl to different pages their primary purpose is scraping the data on those pages, not   indexing the web.
+
+12. What is ‘robots.txt’ file? What is the use of ‘robots.txt’ file?
+
+     A robots. txt file is a simple text file which webmasters can create to tell web crawlers which parts of a website should be crawled and which should not. The file is stored in the main directory (root) on the server.                          When a crawler arrives at a website, it first reads the robots.
+
+13. What are static and dynamic web pages?
+
+      Static Web pages:
+Static Web pages are very simple. It is written in languages such as HTML, JavaScript, CSS, etc. For static     web pages when a server receives a request for a web page, then the server sends the response to the client     without doing any additional process. And these web pages are seen through a web browser. In static web     pages, Pages will remain the same until someone changes it manually.
+
+
+    Dynamic Web Pages:
+Dynamic Web Pages are written in languages such as CGI, AJAX, ASP, ASP.NET, etc. In dynamic web pages, the Content of pages is different for different visitors. It takes more time to load than the static web page. Dynamic web pages are used where the information is changed frequently, for example, stock prices, weather information, etc.
